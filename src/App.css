@@ -1,0 +1,11 @@
+body{
+    font-family: "Poppins",sans-serif;
+}
+.banner{
+    background: url(../src/assets/Banner.png);
+    background-size: cover;
+    background-position: center;
+}
+.how-it-works{
+    background: linear-gradient(180deg, #00603A 0%, #005433 18%, #021E13 100%);
+}
