@@ -17,7 +17,7 @@ export const Maps = () => {
                 </div>
                 <div className='flex mb-6 items-center'>
                     <img src={Phone} className='w-10 h-10'/>
-                    <p className='inline ml-4 text-slate-700'>+91 7508136305</p>
+                    <p className='inline ml-4 text-slate-700'>+91 8419911616</p>
                 </div>
                 <div className='flex mb-6 items-center'>
                     <img src={Mail} className='w-10 h-10'/>

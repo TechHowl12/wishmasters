@@ -22,7 +22,7 @@ export const Footer = () => {
              <img src={BasketBall} alt='social-icons'/>
              <img src={Github} alt='social-icons'/>
          </div>
-         <div className='border-t text-sm md:text-lg border-[#E1E1E1] py-6'><p className='text-center text-slate-100'>© 2024 Wishmasters Gaming Technologies, Inc. All rights reserved.</p></div>
+         <div className='border-t text-sm md:text-lg border-[#E1E1E1] py-6'><p className='text-center text-slate-100'>© 2024 Wishmasters gaming technologies pvt. Ltd., Inc. All rights reserved.</p></div>
     </div>
   )
 }
