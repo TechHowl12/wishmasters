@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 import ComingSoonOverlay from './ComingSoon';
-import Contest1 from "../assets/Contest1.png";
+import Contest1 from "../assets/Contest-1.png";
 
 export const ContestCarousel = () => {
 

@@ -1,8 +1,7 @@
 import React from "react";
-import Contest1 from "../assets/Contest1.png";
-import Contest2 from "../assets/Contest2.png";
-import Contest3 from "../assets/Contest3.png";
-import ComingSoonOverlay from "./ComingSoon";
+import Contest1 from "../assets/Contest-1.png";
+import Contest2 from "../assets/Contest-2.png";
+import Contest3 from "../assets/Contest-3.png";
 
 export const Contests = () => {
   return (
@@ -13,34 +12,28 @@ export const Contests = () => {
         </h1>
         <div className="grid grid-cols-3 sm:w-11/12 md:w-9/12 gap-x-7 mx-auto my-10">
           <div className="shadow-xl">
-            <ComingSoonOverlay>
               <img src={Contest1} alt="contest-prize-1" />
               <p className="text-slate-600 text-xs mx-7 my-4">
                 Description about the contest There are many variations of
                 passages of Lorem Ipsum available, but the majority have
                 suffered{" "}
               </p>
-            </ComingSoonOverlay>
           </div>
           <div className="shadow-xl">
-            <ComingSoonOverlay>
               <img src={Contest2} alt="contest-prize-2" />
               <p className="text-slate-600 text-xs mx-7 my-4">
                 Description about the contest There are many variations of
                 passages of Lorem Ipsum available, but the majority have
                 suffered{" "}
               </p>
-            </ComingSoonOverlay>
           </div>
           <div className="shadow-xl">
-            <ComingSoonOverlay>
               <img src={Contest3} alt="contest-prize-3" />
               <p className="text-slate-600 text-xs mx-7 my-4">
                 Description about the contest There are many variations of
                 passages of Lorem Ipsum available, but the majority have
                 suffered{" "}
               </p>
-            </ComingSoonOverlay>
           </div>
         </div>
       </div>

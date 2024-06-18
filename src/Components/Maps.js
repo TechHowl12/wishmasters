@@ -13,15 +13,15 @@ export const Maps = () => {
             <div className='w-11/12 mt-5 md:mt-0 md:w-full mx-auto'>
                 <div className='flex mb-6 items-center'>
                     <img src={Location} className='w-10 h-10'/>
-                    <p className='inline ml-4 text-slate-700'>315 W 36th St. Bangalore 10018</p>
+                    <p className='inline ml-4 text-slate-700'>1st Floor-GRD, Plot No. 37, Mahalaxmi Bldg, Bora Baza, Mumbai G.P.O, Mumbai-400001, Maharashtra</p>
                 </div>
                 <div className='flex mb-6 items-center'>
                     <img src={Phone} className='w-10 h-10'/>
-                    <p className='inline ml-4 text-slate-700'>79775908692</p>
+                    <p className='inline ml-4 text-slate-700'>+91 7508136305</p>
                 </div>
                 <div className='flex mb-6 items-center'>
                     <img src={Mail} className='w-10 h-10'/>
-                    <p className='inline ml-4 text-slate-700'>afzal@howl.in</p>
+                    <p className='inline ml-4 text-slate-700'>info@wishmasters.in</p>
                 </div>
             </div>
         </div>
