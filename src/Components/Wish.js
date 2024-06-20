@@ -23,8 +23,8 @@ export const Wish = () => {
         </div>
       </div>
       <div className="bg-transparent px-5 sm:px-0 flex sm:block sm:text-center gap-5 md:block md:text-center md:h-[20rem]">
-        <img src={Wish3} className="h-2/3 order-2" alt="wish-3" />
-        <div className="mt-6 md:mt-0">
+        <img src={Wish3} className="h-[60%] md:h-2/3 order-2" alt="wish-3" />
+        <div className="mt-6 sm:mt-11 md:mt-0">
         <h1 className="text-[#00603A] md:mt-5 mb-3 text-sm sm:text-lg whitespace-nowrap md:text-xl">Clear Judging Process</h1>
         <p className="text-slate-600 text-xs md:text-sm">Live judging, overseen by a law firm and independent audit, streamed on Wishmasters</p>
         </div>       

@@ -9,7 +9,7 @@ export const Judge = () => {
       <h1 className="text-3xl md:text-4xl text-center">
         Judging <span className="text-[#00603A]">Panel</span>
       </h1>
-      <h3 className="text-center text-xs sm:text-sm sm:px-7 md:text-lg text-slate-400 mt-5 mb-10">
+      <h3 className="text-center px-2 md:px-0 text-xs sm:text-sm sm:px-7 md:text-lg text-slate-400 mt-5 mb-10">
         The panel of judges is formed of experienced sports professionals on a
         rotating basis, who each offer their best opinion.
       </h3>
@@ -20,8 +20,8 @@ export const Judge = () => {
             alt="judge-1"
             className="rounded-xl flex mx-auto w-8/12 sm:w-full md:w-full object-cover md:h-96 md:p-0 md:mx-auto"
           />
-          <div className="absolute inset-0 bg-black bg-opacity-80 flex flex-col justify-center items-center px-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl">
-            <span className="text-white text-2xl font-bold block">
+          <div className="absolute inset-0 bg-black bg-opacity-80 flex flex-col justify-center px-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl">
+            <span className="text-white text-2xl font-bold block text-center">
               Kiran Anja
             </span>
             <span className="text-white text-xs md:text-sm mt-4 block">
@@ -50,8 +50,8 @@ export const Judge = () => {
             alt="judge-2"
             className="rounded-xl flex mx-auto w-8/12 sm:w-full md:w-full object-cover md:h-96 md:p-0 md:mx-auto"
           />
-          <div className="absolute inset-0 bg-black bg-opacity-80 flex flex-col justify-center items-center px-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl">
-            <span className="text-white text-2xl font-bold block">
+          <div className="absolute inset-0 bg-black bg-opacity-80 flex flex-col justify-center px-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl">
+            <span className="text-white text-2xl font-bold block text-center">
               Suyog Chaudhary
             </span>
             <span className="text-white text-xs md:text-sm mt-4 block">
@@ -71,8 +71,8 @@ export const Judge = () => {
             alt="judge-3"
             className="rounded-xl flex mx-auto w-8/12 sm:w-full md:w-full object-cover md:h-96 md:p-0 md:mx-auto"
           />
-          <div className="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center px-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl">
-            <span className="text-white text-2xl font-bold block">
+          <div className="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-center px-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl">
+            <span className="text-white text-2xl font-bold block text-center">
               Marcus Couto
             </span>
             <span className="text-white text-xs md:text-sm mt-4 block">
