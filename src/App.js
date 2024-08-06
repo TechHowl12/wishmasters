@@ -7,6 +7,7 @@ import { Header } from "./Components/Header";
 import { HowItWorks } from "./Components/HowItWorks";
 import { Judge } from "./Components/Judge";
 import { Maps } from "./Components/Maps";
+import PrivacyPolicy from "./Components/PrivacyPolicy";
 import { Purpose } from "./Components/Purpose";
 import { Wish } from "./Components/Wish";
 
@@ -26,6 +27,7 @@ function App() {
       <Judge />
       <Purpose />
       <Maps />
+      <PrivacyPolicy/>
       <Footer />
     </>
   );
