@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Banner } from "./Components/Banner";
 import { ContestCarousel } from "./Components/ContestCarousel";
@@ -18,18 +19,23 @@ function App() {
   };
 
   return (
-    <>
+    <Router>
       <Header />
-      <Banner />
-      {/* <HowItWorks /> */}
-      {!isMobileOrTablet() ? <Contests/> : <ContestCarousel/>}
-      <Wish />
-      <Judge />
-      <Purpose />
-      <Maps />
-      <PrivacyPolicy/>
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Banner />
+            {!isMobileOrTablet() ? <Contests /> : <ContestCarousel />}
+            <Wish />
+            <Judge />
+            <Purpose />
+            <Maps />
+          </>
+        } />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      </Routes>
       <Footer />
-    </>
+    </Router>
   );
 }
 

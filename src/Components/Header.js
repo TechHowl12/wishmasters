@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/Logo.png";
+import { useNavigate } from "react-router-dom";
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,10 +9,12 @@ export const Header = () => {
     setIsOpen(!isOpen);
   };
 
+  const navigate = useNavigate();
+
   return (
     <nav className="bg-[#00603A]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <img src={Logo} className="h-8" alt="Logo" />
+        <img onClick={()=>navigate("/")} src={Logo} className="h-8 cursor-pointer" alt="Logo" />
 
         <button
           onClick={handleToggle}
@@ -36,13 +39,14 @@ export const Header = () => {
         <div className={`${isOpen ? "block" : "hidden"} w-full md:block md:w-auto`} id="navbar-default">
           <ul className="font-medium flex flex-col p-2 md:p-0 mt-4 sm:space-x-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
             <li>
-              <a
+              <button
                 href="#"
                 className="block py-2 px-3 text-white rounded md:bg-transparent md:p-0 uppercase font-normal text-md tracking-wide"
                 aria-current="page"
+                onClick={()=>navigate("/")}
               >
                 Home
-              </a>
+              </button>
             </li>
             <li>
               <a
@@ -70,6 +74,15 @@ export const Header = () => {
               >
                 Contact
               </a>
+            </li>
+            <li>
+              <button
+                href="#"
+                className="block py-2 px-3 text-white rounded md:bg-transparent md:p-0 uppercase font-normal text-md tracking-wide"
+                onClick={()=>navigate("privacy-policy")}
+              >
+               Terms & Conditions
+              </button>
             </li>
           </ul>
           <button onClick={() => alert("COMING SOON")} className="bg-white text-[#00603A] uppercase w-full py-2 block md:hidden">
