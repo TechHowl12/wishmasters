@@ -75,15 +75,6 @@ export const Header = () => {
                 Contact
               </a>
             </li>
-            <li>
-              <button
-                href="#"
-                className="block py-2 px-3 text-white rounded md:bg-transparent md:p-0 uppercase font-normal text-md tracking-wide"
-                onClick={()=>navigate("privacy-policy")}
-              >
-               Terms & Conditions
-              </button>
-            </li>
           </ul>
           <button onClick={() => alert("COMING SOON")} className="bg-white text-[#00603A] uppercase w-full py-2 block md:hidden">
             Login

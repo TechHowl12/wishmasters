@@ -11,6 +11,10 @@ import { Maps } from "./Components/Maps";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
 import { Purpose } from "./Components/Purpose";
 import { Wish } from "./Components/Wish";
+import Refund from "./Components/Refund";
+import TermsCondition from "./Components/TermsCondition";
+import Pricing from "./Components/Pricing";
+import UserJourney from "./Components/UserJourney";
 
 function App() {
 
@@ -28,11 +32,15 @@ function App() {
             {!isMobileOrTablet() ? <Contests /> : <ContestCarousel />}
             <Wish />
             <Judge />
+            <Pricing/>
             <Purpose />
             <Maps />
+            <UserJourney/>
           </>
         } />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-conditions" element={<TermsCondition />} />
+        <Route path="/refund-policy" element={<Refund />} />
       </Routes>
       <Footer />
     </Router>
