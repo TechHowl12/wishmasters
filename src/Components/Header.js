@@ -48,7 +48,7 @@ export const Header = () => {
                 Home
               </button>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="#"
                 className="block py-2 px-3 text-white rounded md:bg-transparent md:p-0 uppercase font-normal text-md tracking-wide"
@@ -56,7 +56,7 @@ export const Header = () => {
               >
                 Upcoming Contests
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 href="#"

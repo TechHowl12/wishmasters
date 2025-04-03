@@ -29,9 +29,9 @@ function App() {
         <Route path="/" element={
           <>
             <Banner />
-            {!isMobileOrTablet() ? <Contests /> : <ContestCarousel />}
+            {/* {!isMobileOrTablet() ? <Contests /> : <ContestCarousel />} */}
             <Wish />
-            <Judge />
+            {/* <Judge /> */}
             <Pricing/>
             <Purpose />
             <Maps />
