@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import Slider from "react-slick";
-import Banner1 from "../assets/Banner1.png";
-import Banner2 from "../assets/Banner2.png";
-import Banner3 from "../assets/Banner3.png";
-import MobileBanner1 from "../assets/Banner1mobile.png";
-import MobileBanner2 from "../assets/Banner2mobile.png";
-import MobileBanner3 from "../assets/Banner3mobile.png";
+import Banner1 from "../../assets/Banner1.png";
+import Banner2 from "../../assets/Banner2.png";
+import Banner3 from "../../assets/Banner3.png";
+import MobileBanner1 from "../../assets/Banner1mobile.png";
+import MobileBanner2 from "../../assets/Banner2mobile.png";
+import MobileBanner3 from "../../assets/Banner3mobile.png";
+import Audit from "../../assets/Audit.png";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
@@ -69,7 +70,7 @@ export const Banner = () => {
 
   return (
     <>
-      <Slider {...settings} className='w-full overflow-hidden bg-[#eaeaea]'>
+      <Slider {...settings} className='w-full overflow-hidden'>
         <div className='flex justify-center items-center'>
           <img className='w-screen' src={isMobile ? MobileBanner1 : Banner1} alt="Banner 1" />
         </div>
@@ -80,6 +81,7 @@ export const Banner = () => {
           <img className='w-screen' src={isMobile ? MobileBanner3 : Banner3} alt="Banner 3" />
         </div>
       </Slider>
+      <img src={Audit} className='mx-0 md:mx-auto px-4 md:px-0 py-3 md:py-7'/>
     </>
   );
 }

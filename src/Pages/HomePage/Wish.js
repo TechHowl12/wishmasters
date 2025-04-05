@@ -1,7 +1,7 @@
 import React from "react";
-import Wish1 from "../assets/Wish1.png";
-import Wish2 from "../assets/Wish2.png";
-import Wish3 from "../assets/Wish3.png";
+import Wish1 from "../../assets/Wish1.png";
+import Wish2 from "../../assets/Wish2.png";
+import Wish3 from "../../assets/Wish3.png";
 
 export const Wish = () => {
   return (

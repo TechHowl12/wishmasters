@@ -1,7 +1,7 @@
 import React from "react";
-import Animals from "../assets/Animals.png";
-import Tag from "../assets/Purpose.png";
-import Impact from "../assets/Impact.png";
+import Animals from "../../assets/Animals.png";
+import Tag from "../../assets/Purpose.png";
+import Impact from "../../assets/Impact.png";
 
 export const Purpose = () => {
   return (

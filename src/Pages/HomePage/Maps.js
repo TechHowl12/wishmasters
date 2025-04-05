@@ -1,8 +1,8 @@
 import React from "react";
-import Address from "../assets/Map.png";
-import Location from "../assets/Location.png";
-import Phone from "../assets/Phone.png";
-import Mail from "../assets/Mail.png";
+import Address from "../../assets/Map.png";
+import Location from "../../assets/Location.png";
+import Phone from "../../assets/Phone.png";
+import Mail from "../../assets/Mail.png";
 
 export const Maps = () => {
   return (
