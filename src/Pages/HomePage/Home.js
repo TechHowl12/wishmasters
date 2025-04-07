@@ -5,6 +5,7 @@ import Pricing from "./Pricing.js";
 import {Purpose} from "./Purpose.js";
 import {Maps} from "./Maps.js";
 import UserJourney from "./UserJourney.js";
+import Waitlist from "./Waitlist.js";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Purpose />
       <Maps />
       <UserJourney />
+      <Waitlist/>
     </>
   );
 };
