@@ -59,7 +59,7 @@ const Waitlist = () => {
   };
 
   return (
-    <section className="w-full bg-[#00603A] py-12 px-6 md:px-12">
+    <section id="joinwaitlist" className="w-full bg-[#00603A] py-12 px-6 md:px-12">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
         <div className="md:w-1/2 text-center md:text-left">
           <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white">Join the Waitlist</h2>

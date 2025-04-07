@@ -76,12 +76,12 @@ export const Header = () => {
               </a>
             </li>
           </ul>
-          <button onClick={() => alert("COMING SOON")} className="bg-white text-[#00603A] uppercase w-full py-2 block md:hidden">
-            Login
+          <button onClick={() => navigate("/#joinwaitlist")} className="bg-white text-[#00603A] uppercase w-full py-2 block md:hidden">
+          Join Waitlist
           </button>
         </div>
-        <button onClick={() => alert("COMING SOON")} className="bg-white text-[#00603A] uppercase px-8 py-2 hidden md:block hover:scale-110 transition-all">
-          Login
+        <button onClick={() => navigate("/#joinwaitlist")} className="bg-white text-[#00603A] uppercase px-8 py-2 hidden md:block hover:scale-110 transition-all">
+          Join Waitlist
         </button>
       </div>
     </nav>
